@@ -63,6 +63,8 @@ typedef struct {
     size_t **map;
     vector_t *randoms_coords;
     size_t idx;
+    // ? PARSING
+    bool need_to_stop;
 } world_t;
 
 static const char *const ressources[RESSOURCES_NB] = {

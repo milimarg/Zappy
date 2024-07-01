@@ -24,11 +24,24 @@ void add_one_team(server_t *server, char *name)
     }
 }
 
+void check_team(char *first, char *second, server_t *server)
+{
+    if (!strcmp(first, second))
+        server->world.need_to_stop = true;
+}
+
 char **get_team_name(server_t *server, char **argv)
 {
     while (argv[0] && argv[0][0] != '-') {
         add_one_team(server, argv[0]);
         argv++;
+    }
+    for (team_t *curr = server->world.teams; curr; curr = curr->next) {
+        for (team_t *next = curr->next; next; next = next->next) {
+            check_team(curr->name, next->name, server);
+        }
+        if (server->world.need_to_stop)
+            break;
     }
     return argv;
 }

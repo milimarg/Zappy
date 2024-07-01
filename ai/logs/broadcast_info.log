@@ -1,0 +1,18 @@
+Received message in direction 2: {'check_if_anyone_is_here': True}
+Received message in direction 5: {'set_egg_destroy_slave': True, 'set_fork_remaining': 1, 'drop_all_food': True}
+Received message in direction 6: {'check_if_anyone_is_here': True}
+Received message in direction 3: {'check_if_anyone_is_here': True}
+Received message in direction 5: {'set_egg_destroy_slave': True, 'set_fork_remaining': 1, 'drop_all_food': True}
+Received message in direction 1: {'set_egg_destroy_slave': True, 'set_fork_remaining': 1, 'drop_all_food': True}
+Received message in direction 6: {'check_if_anyone_is_here': True}
+Received message in direction 3: {'check_if_anyone_is_here': True}
+Received message in direction 6: {'check_if_anyone_is_here': True}
+Received message in direction 5: {'set_egg_destroy_slave': True, 'set_fork_remaining': 1, 'drop_all_food': True}
+Received message in direction 2: {'set_egg_destroy_slave': True, 'set_fork_remaining': 1, 'drop_all_food': True}
+Received message in direction 1: {'set_egg_destroy_slave': True, 'set_fork_remaining': 1, 'drop_all_food': True}
+Received message in direction 3: {'check_if_anyone_is_here': True}
+Received message in direction 8: {'check_if_anyone_is_here': True}
+Received message in direction 5: {'check_if_anyone_is_here': True}
+Received message in direction 2: {'set_egg_destroy_slave': True, 'set_fork_remaining': 0, 'drop_all_food': True}
+Received message in direction 7: {'set_egg_destroy_slave': True, 'set_fork_remaining': 0, 'drop_all_food': True}
+Received message in direction 2: {'set_egg_destroy_slave': True, 'set_fork_remaining': 0, 'drop_all_food': True}

@@ -16,7 +16,8 @@ bool check_flags(server_t *server)
         {HEIGHT <= 0, "wrong height"},
         {!server->world.teams, "there is no teams"},
         {server->world.clients_limit <= 0, "there is no client limite"},
-        {server->world.freq <= 0, "bad frequency"}
+        {server->world.freq <= 0, "bad frequency"},
+        {server->world.need_to_stop, "two same teams"}
     };
 
     for (int i = 0; i < CHECKS_NUMBER; i++) {

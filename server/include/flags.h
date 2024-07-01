@@ -9,7 +9,7 @@
     #define FLAGS_H_
 
     #define FLAGS_NUMBER 6
-    #define CHECKS_NUMBER 6
+    #define CHECKS_NUMBER 7
 
 typedef struct server_s server_t;
 typedef struct client_s client_t;

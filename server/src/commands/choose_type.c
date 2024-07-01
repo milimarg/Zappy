@@ -46,7 +46,7 @@ static bool try_join_team(char *team_name, client_t *client, server_t *server)
     team_t *teams = server->world.teams;
 
     while (teams) {
-        if (strcmp(teams->name, team_name)) {
+        if (strcmp(teams->name, team_name) != 0) {
             teams = teams->next;
             continue;
         }
