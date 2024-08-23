@@ -31,9 +31,9 @@ To successfully complete this project, we divided our group into three sub-teams
 
 Each part of the project has its own documentation. For detailed understanding of each component, please refer to the specific documentation:
 
-- [AI Documentation](https://github.com/EpitechPromo2027/B-YEP-400-STG-4-1-zappy-augustin.grosnon/blob/main/ai/README.md)
-- [GUI Documentation](https://github.com/EpitechPromo2027/B-YEP-400-STG-4-1-zappy-augustin.grosnon/blob/main/gui/README.md)
-- [Server Documentation](https://github.com/EpitechPromo2027/B-YEP-400-STG-4-1-zappy-augustin.grosnon/blob/main/server/README.md)
+- [AI Documentation](./ai/README.md)
+- [GUI Documentation](./gui/README.md)
+- [Server Documentation](./server/README.md)
 
 ### AI
 
